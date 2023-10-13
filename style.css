@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -55,7 +55,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
+  color: #e61414;
 } 
 
 p {
@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: #cf0202;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #7f0630;
   overflow: hidden;
 }
 
@@ -106,11 +106,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #000000;
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #ff8f8f;
 }
 
 
