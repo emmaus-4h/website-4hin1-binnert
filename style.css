@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: #cf0202;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #7f0630;
+  background-color: #1f97ed;
   overflow: hidden;
 }
 
@@ -106,11 +106,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #000000;
+  background-color: #d7d93f;
 }
 
 nav li a.active {
-  background-color: #ff8f8f;
+  background-color: #f7fe1b;
 }
 
 
@@ -120,9 +120,13 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
+.item {
+  border: 2px solid red;
+}
+
 .item-plaatje {
   float: left;
-  width: 250px;
+  width: 246px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
