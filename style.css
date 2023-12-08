@@ -55,7 +55,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: #df3434;
+  color: #000000;
   font-family:'Courier New', Courier, monospace;
 } 
 
