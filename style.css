@@ -41,7 +41,7 @@ div {                             /* geldt voor div */
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
-                                     links en rechts marge gelijk verdeeld (gecentreerd) */
+                                  links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -65,6 +65,7 @@ p {
   color:red;
   font-family:monospace;
   background-color: rgba(255,255,255,0.5); 
+  border: 2px solid #6f2f2f;
 
 }
 
@@ -133,15 +134,18 @@ nav li a.active {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item {
-  border: 2px solid #491212;
+  
   
 }
 
 .item-plaatje {
   float: left;
   width: 246px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-  
+  padding-right: 5px; /* zorgt dat plaatje niet tegen rand komt */
+  padding-left: 5px; /* zorgt dat plaatje niet tegen rand komt */
+  padding-bottom: 5px; /* zorgt dat plaatje niet tegen rand komt */
+  padding-top: 5px; /* zorgt dat plaatje niet tegen rand komt */
+  border: 2px solid #6f2f2f;
   
 }
 
